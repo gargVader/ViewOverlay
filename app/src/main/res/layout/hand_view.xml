@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hand_pointer_parent"
+    android:layout_width="60dp"
+    android:layout_height="70dp">
+
+    <FrameLayout
+        android:id="@+id/view_finger"
+        android:layout_width="44dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/ripple_animation"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/img_finger"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/hand" />
+
+</FrameLayout>
